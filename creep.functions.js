@@ -2,7 +2,7 @@ Creep.prototype.findEnergySource = function() {
     var sources = this.room.find(FIND_SOURCES);
     if(sources.length){
         var closeSource = this.pos.findClosestByRange(sources);
-        sourceId = closeSource.id;d
+        sourceId = closeSource.id;
         return sourceId
     }
 }
